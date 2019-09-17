@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: putcachejpa
-          image: putcachejpa/putcachejpa
+          image: putcachejpa/putcachejpa:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
